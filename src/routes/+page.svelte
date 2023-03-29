@@ -1,5 +1,6 @@
 <script>
 	import CIFVideoWeb from "$lib/images/CIFVideoWeb.mp4"
+	import CIFVideoWeb2 from "$lib/images/CIFVideoWeb.webm"
 	import ChiefPrincess from "$lib/images/chiefprincess.webp"
 </script>
 
@@ -9,6 +10,7 @@
 
 <video autoplay loop muted playsinline id="bg-video" poster={ChiefPrincess}>
 	<source src={CIFVideoWeb} type="video/mp4"/>
+	<source src={CIFVideoWeb2} type="video/webm"/>
 </video>
 
 <div class="hero py-24">
