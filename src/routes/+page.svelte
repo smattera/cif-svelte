@@ -7,7 +7,7 @@
 	<title>Choctaw Indian Fair | Home</title>
 </svelte:head>
 
-<video id="bg-video" autoplay loop muted>
+<video id="bg-video" autoplay loop muted playsinline>
 	<source src={CIFVideoWeb} />
 </video>
 
