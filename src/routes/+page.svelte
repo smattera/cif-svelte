@@ -8,7 +8,7 @@
 </svelte:head>
 
 <video id="bg-video" autoplay loop muted playsinline>
-	<source src={CIFVideoWeb} />
+	<source src={CIFVideoWeb} type="video/mp4"/>
 </video>
 
 <div class="hero py-24">
