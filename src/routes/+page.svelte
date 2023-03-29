@@ -7,7 +7,7 @@
 	<title>Choctaw Indian Fair | Home</title>
 </svelte:head>
 
-<video id="bg-video" autoplay loop muted playsinline>
+<video autoplay loop muted playsinline id="bg-video" poster={ChiefPrincess}>
 	<source src={CIFVideoWeb} type="video/mp4"/>
 </video>
 
