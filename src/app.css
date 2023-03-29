@@ -1,17 +1,11 @@
+@import url("https://use.typekit.net/rqz7ufi.css");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --b1: 210 10.81% 14.51%;
+  font-family: quasimoda, sans-serif;
 }
 
-#bg-video {
-  position: inline;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 70%;
-  object-fit: cover;
-  z-index: -1;
-}
+

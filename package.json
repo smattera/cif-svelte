@@ -34,5 +34,9 @@
 		"vite": "^4.0.0",
 		"vitest": "^0.25.3"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"embla-carousel-autoplay": "^7.1.0",
+		"embla-carousel-svelte": "^7.1.0"
+	}
 }
