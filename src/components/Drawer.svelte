@@ -1,7 +1,24 @@
+<script>
+	import { page } from "$app/stores";
+
+
+  const pages = [
+    { name: "Home", href: "/" },
+    { name: "Events", href: "/events" },
+    { name: "Culture", href: "/culture" },
+  ];
+  $: currentRoute = $page.url.pathname;
+</script>
+
 <div class="drawer-side">
   <label for="my-drawer" class="drawer-overlay" />
   <ul class="menu p-4 w-80 bg-base-100 text-base-content">
     <!-- Sidebar content here -->
+    {#each pages as page}
+    <li>
+      <a href={page.href} class:is-active={currentRoute === "/"}>{page.name}</a>
+    </li>
+    {/each}
     <li>
       <a href="/" class="active">
         <svg

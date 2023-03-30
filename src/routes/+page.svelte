@@ -2,16 +2,19 @@
 	import CIFVideoWeb from "$lib/images/CIFVideoWeb.mp4"
 	import CIFVideoWeb2 from "$lib/images/CIFVideoWeb.webm"
 	import ChiefPrincess from "$lib/images/chiefprincess.webp"
+	import Countdown from "../components/Countdown.svelte";
 </script>
 
 <svelte:head>
 	<title>Choctaw Indian Fair | Home</title>
 </svelte:head>
 
-<video autoplay loop muted playsinline id="bg-video" poster={ChiefPrincess}>
+<video autoplay loop muted playsinline class="relative top-0 left-0 w-full object-cover -z-[1] h-[75vh]" poster={ChiefPrincess}>
 	<source src={CIFVideoWeb} type="video/mp4"/>
 	<source src={CIFVideoWeb2} type="video/webm"/>
 </video>
+
+<Countdown />
 
 <div class="hero py-24">
   <div class="hero-content flex-col lg:flex-row gap-14">
@@ -25,15 +28,3 @@
 		</div>
   </div>
 </div>
-
-<style>
-	#bg-video {
-		position: relative;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 80%;
-		object-fit: cover;
-		z-index: -1;
-	}
-</style>
