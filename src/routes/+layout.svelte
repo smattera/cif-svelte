@@ -3,7 +3,6 @@
 	import Navbar from '../components/Navbar.svelte';
   import Footer from '../components/Footer.svelte';
 	import Drawer from '../components/Drawer.svelte';
-	import Countdown from '../components/Countdown.svelte';
 </script>
 
 <div class="drawer">

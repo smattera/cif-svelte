@@ -1,11 +1,15 @@
 <script>
 	import { page } from "$app/stores";
 
-
   const pages = [
     { name: "Home", href: "/" },
     { name: "Events", href: "/events" },
     { name: "Culture", href: "/culture" },
+    { name: "Family Fun", href: "/family" },
+    { name: "Stickball", href: "/stickball" },
+    { name: "Pageant", href: "/pageant" },
+    { name: "Competitions", href: "/competitions" },
+    { name: "Fair Map", href: "/map" },
   ];
   $: currentRoute = $page.url.pathname;
 </script>
@@ -16,21 +20,14 @@
     <!-- Sidebar content here -->
     {#each pages as page}
     <li>
-      <a href={page.href} class:is-active={currentRoute === "/"}>{page.name}</a>
+      <a href={page.href} class:is-active={currentRoute === page.href}>
+        {page.name}
+      </a>
     </li>
     {/each}
-    <li>
+    <!-- <li>
       <a href="/" class="active">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          class="h-6 w-auto"
-          fill="currentColor"
-          viewBox="0 96 960 960"
-        >
-          <path
-            d="M220 876h150V626h220v250h150V486L480 291 220 486v390Zm-60 60V456l320-240 320 240v480H530V686H430v250H160Zm320-353Z"
-          />
-        </svg>
+        
         Home</a
       >
     </li>
@@ -105,6 +102,6 @@
         </svg>
         Fair Map</a
       >
-    </li>
+    </li> -->
   </ul>
 </div>
