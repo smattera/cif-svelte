@@ -1,6 +1,5 @@
 <script>
 	import CIFVideoWeb from "$lib/images/CIFVideoWeb.mp4"
-	import CIFVideoWeb2 from "$lib/images/CIFVideoWeb.webm"
 	import ChiefPrincess from "$lib/images/chiefprincess.webp"
 	import Countdown from "../components/Countdown.svelte";
 </script>
