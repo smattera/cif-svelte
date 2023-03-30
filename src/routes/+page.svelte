@@ -11,7 +11,6 @@
 
 <video autoplay loop muted playsinline class="relative top-0 left-0 w-full object-cover -z-[1] h-[75vh]" poster={ChiefPrincess}>
 	<source src={CIFVideoWeb} type="video/mp4"/>
-	<source src={CIFVideoWeb2} type="video/webm"/>
 </video>
 
 <Countdown />
