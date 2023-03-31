@@ -15,7 +15,7 @@
 <Countdown />
 
 <div class="hero py-24">
-  <div class="hero-content flex-col lg:flex-row gap-14">
+  <div class="hero-content flex-col lg:flex-row gap-14 w-fit">
     <img src={ChiefPrincess} class="max-w-lg rounded-lg shadow-2xl outline outline-offset-2 outline-neutral" alt="Svelte Logo" />
     <div class="text-center">
       <h1 class="text-5xl font-bold">Halito!</h1>

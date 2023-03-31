@@ -42,7 +42,7 @@
 </script>
 
 <div class="hero py-4 bg-error">
-	<div class="hero-content flex-col lg:flex-row text-base-300 font-bold">
+	<div class="hero-content flex-col lg:flex-row text-base-300 font-bold w-fit">
 		{#if timeLeft > 0}
 			<h1 class="uppercase text-xl">Countdown to the 73rd Choctaw Indian Fair:</h1>
 			<div class="grid grid-flow-col gap-5 text-center auto-cols-max">

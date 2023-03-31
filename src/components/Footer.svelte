@@ -1,5 +1,4 @@
 <script>
-  import CIFLogo from "$lib/images/logos/icon.webp";
   import Sponsors from '../components/Sponsors.svelte';
   import { onMount } from 'svelte';
 	
@@ -15,11 +14,17 @@
 	})
 </script>
 
-<Sponsors />
+<div class="hero pt-4 bg-error">
+  <h1 class="text-3xl font-bold">Thank you to our 2022 Sponsors</h1>
+</div>
+
+<div class="hero py-4 bg-error">
+  <Sponsors />
+</div>
 
 <footer class="footer footer-center p-10 bg-primary text-primary-content">
   <div>
-    <img src={CIFLogo} alt="Choctaw Indian Fair" class="h-24 w-auto">
+    <img src="./logos/icon.webp" alt="Choctaw Indian Fair" class="h-24 w-auto">
     <p class="font-bold text-xl">
       Choctaw Indian Fair
     </p> 

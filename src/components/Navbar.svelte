@@ -1,7 +1,3 @@
-<script>
-import CIFLogo from "$lib/images/logos/icon.webp";
-</script>
-
 <div class="navbar bg-base-100 fixed z-10">
   <div class="navbar-start">
     <label for="my-drawer" class="btn btn-square btn-ghost transition ease-in-out delay-150 hover:scale-110 duration-300">
@@ -9,7 +5,7 @@ import CIFLogo from "$lib/images/logos/icon.webp";
     </label>
   </div>
   <div class="navbar-center">
-    <a href="/" class="btn btn-ghost text-xl transition ease-in-out delay-150 hover:scale-110 duration-300"><img src={CIFLogo} class="h-10 w-auto" alt="Choctaw Indian Fair" /><span class="hidden ml-2 md:block">Choctaw Indian Fair</span></a>
+    <a href="/" class="btn btn-ghost text-xl transition ease-in-out delay-150 hover:scale-110 duration-300"><img src="./logos/icon.webp" class="h-10 w-auto" alt="Choctaw Indian Fair" /><span class="hidden ml-2 md:block">Choctaw Indian Fair</span></a>
   </div>
   <div class="navbar-end">
     <a href="/" class="btn btn-primary transition ease-in-out delay-150 hover:scale-110 duration-300 mr-3">
