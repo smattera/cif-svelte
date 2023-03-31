@@ -13,7 +13,7 @@
   <div class="embla__container">
     {#each carouselData as item}
       <div class="embla__slide">
-        <img src={item.imgUrl} alt={item.name} class={item.imgClass}>
+        <img src={item.imgUrl} alt={item.name}>
         <h1 class="text-xl font-bold text-center uppercase">{item.imgClass} Sponsor</h1>
       </div>
     {/each}
@@ -25,19 +25,11 @@
     overflow: hidden;
   }
   .embla__container {
-    display: flex;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 15%;
   }
   .embla__slide {
-    flex: 0 0 auto; /* Adapt slide size to its content */
-    min-width: 0;
-    max-width: 100%; /* Prevent from growing larger than viewport */
-    margin-right: 20px;
-    margin-left: 10px;
-  }
-  @media (min-width: 768px) {
-    .embla__slide {
-      flex: 0 0 300px;
-      min-width: 0;
-    }
+    margin: 0 20px;
   }
 </style>
