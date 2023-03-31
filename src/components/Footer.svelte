@@ -18,7 +18,7 @@
   <h1 class="text-3xl font-bold">Thank you to our 2022 Sponsors</h1>
 </div>
 
-<div class="hero py-4 bg-error">
+<div class="hero py-4 bg-error overflow-hidden">
   <Sponsors />
 </div>
 
