@@ -2,6 +2,7 @@
 	import CIFVideoWeb from "$lib/images/CIFVideoWeb.mp4"
 	import ChiefPrincess from "$lib/images/chiefprincess.webp"
 	import Countdown from "../components/Countdown.svelte";
+	import Pricing from "../components/Pricing.svelte";
 </script>
 
 <svelte:head>
@@ -26,3 +27,5 @@
 		</div>
   </div>
 </div>
+
+<Pricing />

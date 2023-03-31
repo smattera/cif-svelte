@@ -15,7 +15,7 @@
 </script>
 
 <div class="hero pt-4 bg-error">
-  <h1 class="text-3xl font-bold">Thank you to our 2022 Sponsors</h1>
+  <h1 class="text-3xl font-bold text-center">Thank you to our 2022 Sponsors</h1>
 </div>
 
 <div class="hero py-4 bg-error overflow-hidden">
