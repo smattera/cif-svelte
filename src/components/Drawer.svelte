@@ -12,6 +12,7 @@
     { name: "Fair Map", href: "/map" },
   ];
   $: currentRoute = $page.url.pathname;
+
 </script>
 
 <div class="drawer-side">
@@ -20,7 +21,7 @@
     <!-- Sidebar content here -->
     {#each pages as page}
     <li>
-      <a href={page.href} class:is-active={currentRoute === page.href}>
+      <a href={page.href} class:active={currentRoute == page.href}>
         {page.name}
       </a>
     </li>
