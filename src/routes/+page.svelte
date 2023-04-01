@@ -1,6 +1,4 @@
 <script>
-	import CIFVideoWeb from "$lib/images/CIFVideoWeb.mp4"
-	import ChiefPrincess from "$lib/images/chiefprincess.webp"
 	import Countdown from "../components/Countdown.svelte";
 	import Pricing from "../components/Pricing.svelte";
 </script>
@@ -9,15 +7,15 @@
 	<title>Choctaw Indian Fair | Home</title>
 </svelte:head>
 
-<video autoplay loop muted playsinline class="relative top-0 left-0 w-full object-cover -z-[1] h-[75vh]" poster={ChiefPrincess}>
-	<source src={CIFVideoWeb} type="video/mp4"/>
+<video autoplay loop muted playsinline class="relative top-0 left-0 w-full object-cover -z-[1] h-[75vh]" poster="./img/chiefprincess.webp">
+	<source src="./vid/CIFVideoWeb.mp4" type="video/mp4"/>
 </video>
 
 <Countdown />
 
 <div class="hero py-24">
-  <div class="hero-content flex-col lg:flex-row gap-14 w-fit">
-    <img src={ChiefPrincess} class="max-w-lg rounded-lg shadow-2xl outline outline-offset-2 outline-neutral" alt="Svelte Logo" />
+  <div class="hero-content flex-col lg:flex-row gap-14 w-fit overflow-hidden">
+    <img src="./img/chiefprincess.webp" class="max-w-lg rounded-lg shadow-2xl outline outline-offset-2 outline-neutral" alt="Svelte Logo" />
     <div class="text-center">
       <h1 class="text-5xl font-bold">Halito!</h1>
       <p class="py-6">Greetings from the Choctaw Indian Reservation. We invite you to join us July 12-15 for our 73rd annual Choctaw Indian Fair. The fair takes place on our centuries-old homeland in beautiful Choctaw, Mississippi. We gather each July to celebrate our heritage and share our beautiful and vibrant culture with our friends and neighbors. This year’s fair theme is:</p>

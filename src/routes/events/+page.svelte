@@ -1,7 +1,4 @@
 <script>
-  import eventBanner from "$lib/images/event-banner.webp"
-  import eventBanner2 from "$lib/images/event-banner02.webp"
-
   const dates = [
     { day: "Wed", num: "05" },
     { day: "Thu", num: "06" },
@@ -21,14 +18,13 @@
     { time: "9:00 PM", category: "World Series Stickball", title: "Women's (35+) Exhibition Game: North VS South", location: "Warrior Stadium" },
     { time: "10:00 PM", category: "World Series Stickball", title: "Men's Division: Game 1", location: "Warrior Stadium" },
   ];
-
 </script>
 
 <div class="hero py-4 bg-error">
 	<div class="hero-content flex flex-wrap">
 
-    <img src={eventBanner} alt="Events" class="hidden md:block w-fit">
-		<img src={eventBanner2} alt="Events" class="md:hidden w-fit">
+    <img src="./img/event-banner.webp" alt="Events" class="hidden md:block w-fit">
+		<img src="./img/event-banner02.webp" alt="Events" class="md:hidden w-fit">
 
 		<div class="tabs tabs-boxed items-center align-middle gap-5 w-full">
       {#each dates as date}
