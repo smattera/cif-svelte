@@ -13,9 +13,9 @@
 
 <Countdown />
 
-<div class="hero py-24">
+<div class="hero py-24 bg-home">
   <div class="hero-content flex-col lg:flex-row gap-14 w-fit overflow-hidden">
-    <img src="./img/chiefprincess.webp" class="max-w-lg rounded-lg shadow-2xl outline outline-offset-2 outline-neutral" alt="Svelte Logo" />
+    <img src="./img/chiefprincess.webp" class="max-w-lg rounded-lg shadow-2xl outline outline-offset-2 outline-warning" alt="Svelte Logo" />
     <div class="text-center">
       <h1 class="text-5xl font-bold">Halito!</h1>
       <p class="py-6">Greetings from the Choctaw Indian Reservation. We invite you to join us July 12-15 for our 73rd annual Choctaw Indian Fair. The fair takes place on our centuries-old homeland in beautiful Choctaw, Mississippi. We gather each July to celebrate our heritage and share our beautiful and vibrant culture with our friends and neighbors. This year’s fair theme is:</p>
@@ -27,3 +27,4 @@
 </div>
 
 <Pricing />
+
