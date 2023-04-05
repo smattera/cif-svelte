@@ -8,5 +8,6 @@
   font-family: quasimoda, sans-serif;
 }
 .bg-countdown {
-  background: linear-gradient(160deg,#FAE387,#D8E7FB,#D67706);
+  background: linear-gradient(160deg,#FAE387 20%,#D8E7FB,#D67706 80%);
 }
+
