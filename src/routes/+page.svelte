@@ -13,7 +13,7 @@
 
 <Countdown />
 
-<section class="py-16 px-5 xl:flex xl:items-center bg-home">
+<section class="py-16 px-5 xl:flex xl:items-center bg-section">
   <div class="items-center px-5 xl:px-0 xl:w-1/2 xl:m-16 mx-auto">
     <img src="./img/chiefprincess.webp" alt="Chief & Princess" class="rounded-lg shadow-2xl outline outline-4 outline-offset-4 outline-warning" />
   </div>
@@ -28,3 +28,12 @@
 
 <Pricing />
 
+<style>
+  .bg-section {
+    background: url("/isometric.svg") center center,
+      linear-gradient(30deg, #500, maroon, #500, maroon, #500, maroon, #500);
+    background-size: cover, cover;
+    background-attachment: fixed, fixed;
+    background-blend-mode: multiply, normal;
+  }
+</style>

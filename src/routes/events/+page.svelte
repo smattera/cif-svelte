@@ -20,11 +20,11 @@
   ];
 </script>
 
-<div class="hero py-4 bg-home">
+<div class="hero py-4 bg-section">
 	<div class="hero-content flex flex-wrap">
 
-    <img src="./img/event-banner.webp" alt="Events" class="hidden md:block w-fit drop-shadow-2xl">
-		<img src="./img/event-banner02.webp" alt="Events" class="md:hidden w-fit">
+    <img src="/img/event-banner.webp" alt="Events" class="hidden md:block w-fit drop-shadow-2xl">
+		<img src="/img/event-banner02.webp" alt="Events" class="md:hidden w-fit">
 		<h1 class="font-bold text-9xl" style="text-shadow:5px 5px 10px #333">EVENTS</h1>
 
 		<div class="tabs tabs-boxed items-center align-middle gap-5 w-full">
@@ -62,3 +62,13 @@
 
 	</div>
 </div>
+
+<style>
+  .bg-section {
+    background: url("/isometric.svg") center center,
+      linear-gradient(30deg, #500, maroon, #500, maroon, #500, maroon, #500);
+    background-size: cover, cover;
+    background-attachment: fixed, fixed;
+    background-blend-mode: multiply, normal;
+  }
+</style>

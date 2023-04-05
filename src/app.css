@@ -7,17 +7,6 @@
 :root {
   font-family: quasimoda, sans-serif;
 }
-
-.bg-home {
-  background: url("/isometric.svg") center center,
-    linear-gradient(30deg, #500, maroon, #500, maroon, #500, maroon, #500);
-  background-size: cover, cover;
-  background-attachment: fixed, fixed;
-  background-blend-mode: multiply, normal;
-}
 .bg-countdown {
   background: linear-gradient(160deg,#FAE387,#D8E7FB,#D67706);
-}
-.btn-countdown {
-  background: linear-gradient(#FAE387,#D8E7FB,#D67706);
 }
