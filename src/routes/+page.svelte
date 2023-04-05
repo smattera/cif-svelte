@@ -15,7 +15,7 @@
 
 <section class="py-16 px-5 xl:flex xl:items-center bg-section">
   <div class="items-center px-5 xl:px-0 xl:w-1/2 xl:m-16 mx-auto">
-    <img src="./img/chiefprincess.webp" alt="Chief & Princess" class="rounded-lg shadow-2xl outline outline-4 outline-offset-4 outline-warning" />
+    <img src="./img/chiefprincess.webp" alt="Chief & Princess" class="rounded-lg shadow-2xl outline outline-4 outline-offset-4 outline-neutral" />
   </div>
   <div class="pt-5 xl:pt-0 xl:w-1/2 xl:m-16 text-center">
     <h1 class="text-5xl font-bold mb-4 2xl:text-7xl">Halito!</h1>
@@ -34,6 +34,6 @@
       linear-gradient(30deg, #500, maroon, #500, maroon, #500, maroon, #500);
     background-size: cover, cover;
     background-attachment: fixed, fixed;
-    background-blend-mode: multiply, normal;
+    background-blend-mode: multiply;
   }
 </style>
