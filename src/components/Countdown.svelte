@@ -42,29 +42,29 @@
 </script>
 
 {#if timeLeft > 0}
-<div class="hero py-4 bg-error">
+<div class="hero py-4 bg-countdown">
 	<div class="hero-content flex-col lg:flex-row text-base-300 font-bold w-fit">
 		<h1 class="uppercase text-xl">Countdown to the 73rd Choctaw Indian Fair:</h1>
 		<div class="grid grid-flow-col gap-5 text-center auto-cols-max">
-			<div class="flex flex-col p-2 bg-base-100 rounded-box text-white">
+			<div class="flex flex-col p-2 bg-base-100 rounded-box text-white drop-shadow-2xl">
 				<span class="countdown font-mono text-5xl">
 					{countdownTime.days}
 				</span>
 				days
 			</div>
-			<div class="flex flex-col p-2 bg-base-100 rounded-box text-white">
+			<div class="flex flex-col p-2 bg-base-100 rounded-box text-white drop-shadow-2xl">
 				<span class="countdown font-mono text-5xl">
 					{countdownTime.hours}
 				</span>
 				hours
 			</div>
-			<div class="flex flex-col p-2 bg-base-100 rounded-box text-white">
+			<div class="flex flex-col p-2 bg-base-100 rounded-box text-white drop-shadow-2xl">
 				<span class="countdown font-mono text-5xl">
 					{countdownTime.minutes}
 				</span>
 				min
 			</div>
-			<div class="flex flex-col p-2 bg-base-100 rounded-box text-white">
+			<div class="flex flex-col p-2 bg-base-100 rounded-box text-white drop-shadow-2xl">
 				<span class="countdown font-mono text-5xl">
 					{countdownTime.seconds}
 				</span>
