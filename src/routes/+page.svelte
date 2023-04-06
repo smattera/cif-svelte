@@ -30,7 +30,7 @@
 
 <style>
   .bg-section {
-    background: center / cover fixed url("/isometric.svg"),
+    background: center / cover fixed url("/isometric.png"),
     fixed linear-gradient(30deg, #7f1d1d, #b91c1c, #7f1d1d, #b91c1c, #7f1d1d, #b91c1c, #7f1d1d);
     background-blend-mode: multiply;
   }

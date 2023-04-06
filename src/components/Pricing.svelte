@@ -88,3 +88,9 @@
 		</div>
 	</div>
 </div>
+
+<style>
+	.glass, .glass:hover, .glass.btn-active {
+
+	}
+</style>

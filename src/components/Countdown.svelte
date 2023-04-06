@@ -1,7 +1,7 @@
 <script>
   import { onMount, onDestroy } from 'svelte';
   
-  let endTime = new Date('2023-07-12T11:00:00'); // set the end time
+  let endTime = new Date('2023-07-12T16:00:00Z'); // set the end time
   let timeLeft = endTime.getTime() - Date.now(); // calculate the time remaining in milliseconds
   
   const countdownInterval = setInterval(() => {
@@ -42,29 +42,29 @@
 </script>
 
 {#if timeLeft > 0}
-<div class="hero py-4 bg-countdown text-white">
+<div class="hero py-4 bg-countdown text-slate-800">
 	<div class="hero-content flex-col lg:flex-row font-bold w-fit">
-		<h1 class="uppercase text-xl">Countdown to the 73rd Choctaw Indian Fair:</h1>
+		<h1 class="uppercase text-2xl text-center">Countdown to the <span class="whitespace-nowrap">73rd Choctaw Indian Fair:</span></h1>
 		<div class="grid grid-flow-col gap-5 text-center auto-cols-max">
-			<div class="flex flex-col p-2 bg-amber-300 rounded-box text-black drop-shadow-2xl">
+			<div class="flex flex-col p-2 glass rounded-box outline outline-neutral text-slate-800 drop-shadow-2xl">
 				<span class="countdown font-mono text-5xl block">
 					{countdownTime.days}
 				</span>
 				days
 			</div>
-			<div class="flex flex-col p-2 bg-amber-300 rounded-box text-black drop-shadow-2xl">
+			<div class="flex flex-col p-2 glass rounded-box outline outline-neutral text-slate-800 drop-shadow-2xl">
 				<span class="countdown font-mono text-5xl block">
 					{countdownTime.hours}
 				</span>
 				hours
 			</div>
-			<div class="flex flex-col p-2 bg-amber-300 rounded-box text-black drop-shadow-2xl">
+			<div class="flex flex-col p-2 glass rounded-box outline outline-neutral text-slate-800 drop-shadow-2xl">
 				<span class="countdown font-mono text-5xl block">
 					{countdownTime.minutes}
 				</span>
 				min
 			</div>
-			<div class="flex flex-col p-2 bg-amber-300 rounded-box text-black drop-shadow-2xl">
+			<div class="flex flex-col p-2 glass rounded-box outline outline-neutral text-slate-800 drop-shadow-2xl">
 				<span class="countdown font-mono text-5xl block">
 					{countdownTime.seconds}
 				</span>
@@ -78,7 +78,7 @@
 <style>
 	.bg-countdown {
     background: url("/weave.svg") center repeat,
-    linear-gradient(to bottom right, #1e293b, #475569, #1e293b);
+    linear-gradient(to bottom right, #FAE387 25%, #D8E7FB, #D67706 75%);
 		background-size: 216px, auto;
     background-blend-mode: multiply;
 	}
