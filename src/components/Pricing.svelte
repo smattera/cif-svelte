@@ -1,5 +1,5 @@
 <div class="hero py-4 bg-secondary">
-  <h1 class="text-3xl font-bold text-center">Ticket Presale Starts Soon</h1>
+  <h1 class="text-3xl font-bold text-center" style="text-shadow:5px 5px 10px #333">Ticket Presale Starts Soon</h1>
 </div>
 
 <div class="hero py-4 bg-secondary">
