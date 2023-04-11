@@ -15,7 +15,7 @@
 
 <section class="py-16 px-5 xl:flex xl:items-center bg-section">
   <div class="items-center px-5 xl:px-0 xl:w-1/2 xl:m-16 mx-auto">
-    <img src="./img/chiefprincess.webp" alt="Chief & Princess" class="rounded-lg shadow-2xl outline outline-4 outline-offset-4 outline-white" />
+    <img src="./img/chiefprincess.webp" alt="Chief & Princess" class="glass rounded-lg shadow-2xl outline outline-4 outline-offset-4 outline-white" />
   </div>
   <div class="pt-5 xl:pt-0 xl:w-1/2 xl:m-16 text-center">
     <h1 class="text-5xl font-bold mb-4 2xl:text-7xl" style="text-shadow:5px 5px 10px #333">Halito!</h1>
@@ -30,8 +30,8 @@
 
 <style>
   .bg-section {
-    background: center / cover fixed url("/isometric.png"),
+    background: center / cover fixed url("/isometric.svg"),
     fixed linear-gradient(30deg, #7f1d1d, #b91c1c, #7f1d1d, #b91c1c, #7f1d1d, #b91c1c, #7f1d1d);
-    background-blend-mode: multiply;
+    background-blend-mode: darken;
   }
 </style>
