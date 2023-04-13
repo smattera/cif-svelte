@@ -30,7 +30,7 @@
 
 <style>
   .bg-section {
-    background: center / cover fixed url("/isometric.svg"),
+    background: center / cover url("/isometric.svg"),
     red;
     background-blend-mode: darken;
   }
