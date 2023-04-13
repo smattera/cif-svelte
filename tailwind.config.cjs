@@ -7,10 +7,11 @@ module.exports = {
         mytheme: {
           "primary": "#FFBB22",
           "secondary": "#FF77BB",
-          "base-100": "#212529",
+          "base-100": "#212527",
           "info": "#66AAFF",
           "error": "#FF7777",
-          "base-content": "#EEFFEE",
+          "base-content": "#FFFFFF",
+          "warning": "#fcd34d",
         },
       },
     ],
