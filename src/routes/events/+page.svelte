@@ -21,13 +21,14 @@
 </script>
 
 <div class="hero py-4 bg-section">
-	<div class="hero-content flex flex-wrap">
-
-    <img src="/img/event-banner.webp" alt="Events" class="hidden md:block w-fit drop-shadow-2xl">
-		<img src="/img/event-banner02.webp" alt="Events" class="md:hidden w-fit">
+	<div class="hero-content flex flex-col">
+		<img src="/img/event-banner.webp" alt="Events" class="hidden md:block w-full drop-shadow-2xl">
+		<img src="/img/event-banner02.webp" alt="Events" class="md:hidden w-full">
 		<h1 class="font-bold text-9xl" style="text-shadow:5px 5px 10px #333">EVENTS</h1>
+		<h1 class="font-bold text-5xl py-10 text-center" style="text-shadow:5px 5px 10px #333">2023 Schedule Coming Soon!</h1>
+    
 
-		<div class="tabs tabs-boxed items-center align-middle gap-5 w-full">
+		<!-- <div class="tabs tabs-boxed items-center align-middle gap-5 w-full">
       {#each dates as date}
 			<a
 				href="/"
@@ -36,7 +37,9 @@
 				<h1 class="text-5xl">{date.num}</h1></a
 			>
       {/each}
-		</div>
+		</div> -->
+
+		
 
 		<!-- <table class="table table-auto w-full">
 			<thead>
@@ -65,10 +68,8 @@
 
 <style>
   .bg-section {
-    background: url("/isometric.svg") center center,
-      linear-gradient(30deg, #500, maroon, #500, maroon, #500, maroon, #500);
-    background-size: cover, cover;
-    background-attachment: fixed, fixed;
-    background-blend-mode: multiply, normal;
+    background: center / cover url("/isometric.svg"),
+    red;
+    background-blend-mode: darken;
   }
 </style>

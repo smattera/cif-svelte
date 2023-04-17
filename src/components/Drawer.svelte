@@ -13,6 +13,12 @@
   ];
   $: currentRoute = $page.url.pathname;
 
+  let isDrawerOpen;
+
+  function handleLinkClick() {
+		isDrawerOpen = false;
+	}
+
 </script>
 
 <div class="drawer-side">
@@ -21,9 +27,9 @@
     <!-- Sidebar content here -->
     {#each pages as page}
     <li>
-      <a href={page.href} class:glass={currentRoute == page.href}>
-        {#if page.icon}<img src="/icons/{page.icon}.svg" class="h-6 w-auto text-white" alt={page.name}/>{/if}
-        {page.name}
+      <a href={page.href} class:glass={currentRoute == page.href} on:click={handleLinkClick}>
+          {#if page.icon}<img src="/icons/{page.icon}.svg" class="h-6 w-auto text-white" alt={page.name}/>{/if}
+          {page.name}
       </a>
     </li>
     {/each}

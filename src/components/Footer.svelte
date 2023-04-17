@@ -14,18 +14,19 @@
 	})
 </script>
 
-<div class="hero pt-4 bg-error">
-  <h1 class="text-3xl font-bold text-center" style="text-shadow:5px 5px 10px #333">Thank you to our 2022 Sponsors</h1>
+<div class="bg-sponsor">
+  <div class="hero p-24">
+    <h1 class="text-3xl font-bold text-center">To become a 2023 Sponsor of the Choctaw Indian Fair, please contact Pam Winn at <a href="mailto:pwinn@choctaw.org?subject=2023%20Choctaw%20Indian%20Fair%20Sponsorship&body=Hello%2C%0AI%20am%20interested%20in%20becoming%20a%20sponsor%20for%20the%202023%20Choctaw%20Indian%20Fair.%20Can%20you%20please%20send%20me%20information%20about%20your%20sponsorship%20packages%3F">pwinn@choctaw.org<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-auto inline-block" fill="currentColor" viewBox="0 96 960 960"><path d="M180 936q-24 0-42-18t-18-42V276q0-24 18-42t42-18h279v60H180v600h600V597h60v279q0 24-18 42t-42 18H180Zm202-219-42-43 398-398H519v-60h321v321h-60V319L382 717Z"/></svg></a></h1>
+  </div>
+  <!--<div class="hero pt-4 pb-10 overflow-hidden">
+    <Sponsors />
+  </div>-->
 </div>
 
-<div class="hero py-4 bg-error overflow-hidden">
-  <Sponsors />
-</div>
-
-<footer class="footer footer-center p-10 bg-countdown text-white">
+<footer class="footer footer-center p-10 bg-panel text-white">
   <div>
     <img src="./logos/icon.webp" alt="Choctaw Indian Fair" class="h-24 w-auto">
-    <p class="font-bold text-xl">
+    <p class="font-bold uppercase text-xl">
       Choctaw Indian Fair
     </p> 
     <p>
@@ -49,10 +50,15 @@
 </footer>
 
 <style>
-	.bg-countdown {
+	.bg-panel {
     background: url("/panel.svg") center repeat,
     #212527;
 		background-size: auto;
     background-blend-mode: lighten;
 	}
+  .bg-sponsor {
+    background: center / cover url("/isometric.svg"),
+    linear-gradient(#212527,#FFF,#212527);
+    background-blend-mode: darken;
+  }
 </style>
