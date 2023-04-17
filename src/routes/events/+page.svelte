@@ -20,11 +20,10 @@
   ];
 </script>
 
-<div class="hero min-h-screen bg-section">
-	<div class="container mx-auto flex items-center h-full">
-		<img src="/img/event-banner.webp" alt="Events" class="hidden md:block w-full h-auto">
-		<img src="/img/event-banner02.webp" alt="Events" class="md:hidden w-full h-auto mt-8 px-4">
-		<!--<h1 class="font-bold text-9xl" style="text-shadow:5px 5px 10px #333">EVENTS</h1>-->
+<div class="hero bg-section flex flex-col">
+	<img src="/img/event-banner.webp" alt="Events" class="hidden md:block w-full h-auto p-4">
+	<img src="/img/event-banner02.webp" alt="Events" class="md:hidden w-full h-auto mt-8 p-4">
+	<h1 class="font-bold p-4" style="text-shadow:5px 5px 10px #333">EVENTS</h1>
 
 		<!-- <div class="tabs tabs-boxed items-center align-middle gap-5 w-full">
       {#each dates as date}
@@ -61,7 +60,6 @@
 			</tbody>
 		</table> -->
 
-	</div>
 </div>
 
 <style>
@@ -70,4 +68,8 @@
     red;
     background-blend-mode: darken;
   }
+	h1 {
+		font-size: 16rem;
+		font-size: clamp(8rem, 4vw, 16rem);
+	}
 </style>
