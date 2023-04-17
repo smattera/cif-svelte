@@ -69,7 +69,7 @@
     background-blend-mode: darken;
   }
 	h1 {
-		font-size: 16rem;
-		font-size: clamp(8rem, 4vw, 16rem);
+		font-size: 8rem;
+		font-size: clamp(4rem, 8vw, 16rem);
 	}
 </style>
