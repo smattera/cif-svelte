@@ -20,13 +20,12 @@
   ];
 </script>
 
-<div class="hero py-4 bg-section">
-	<div class="hero-content flex flex-col">
-		<img src="/img/event-banner.webp" alt="Events" class="hidden md:block w-full drop-shadow-2xl">
-		<img src="/img/event-banner02.webp" alt="Events" class="md:hidden w-full">
+<div class="hero bg-section py-10">
+	<div class="container mx-auto flex flex-col items-center h-full">
+		<img src="/img/event-banner.webp" alt="Events" class="hidden md:block w-full h-auto">
+		<img src="/img/event-banner02.webp" alt="Events" class="md:hidden w-full h-auto mt-8 px-4">
 		<h1 class="font-bold text-9xl" style="text-shadow:5px 5px 10px #333">EVENTS</h1>
 		<h1 class="font-bold text-5xl py-10 text-center" style="text-shadow:5px 5px 10px #333">2023 Schedule Coming Soon!</h1>
-    
 
 		<!-- <div class="tabs tabs-boxed items-center align-middle gap-5 w-full">
       {#each dates as date}

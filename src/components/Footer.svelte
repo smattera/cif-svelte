@@ -58,7 +58,7 @@
 	}
   .bg-sponsor {
     background: center / cover url("/isometric.svg"),
-    linear-gradient(#212527,#FFF,#212527);
+    #fcd34d;
     background-blend-mode: darken;
   }
 </style>
