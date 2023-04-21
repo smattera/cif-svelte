@@ -18,7 +18,7 @@
 <style>
 	.bg-navbar {
     background: url("/rope.svg") center repeat-x,
-    #212527;
+    radial-gradient(#345, black, black);
 		background-size: auto;
     background-blend-mode:lighten;
 	}

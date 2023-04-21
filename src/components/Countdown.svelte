@@ -78,7 +78,7 @@
 <style>
 	.bg-countdown {
     background: url("/lattice.svg") center repeat,
-    #212527;
+    radial-gradient(#345, black);
 		background-size: auto;
 		background-blend-mode: lighten;
 	}

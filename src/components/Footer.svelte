@@ -16,7 +16,7 @@
 
 <div class="bg-sponsor">
   <div class="hero p-24 mx-auto">
-    <h1 class="text-3xl font-bold mx-auto text-center">To become a 2023 Sponsor of the Choctaw Indian Fair, please contact Pam Winn at <a href="mailto:pwinn@choctaw.org?subject=2023%20Choctaw%20Indian%20Fair%20Sponsorship&body=Hello%2C%0AI%20am%20interested%20in%20becoming%20a%20sponsor%20for%20the%202023%20Choctaw%20Indian%20Fair.%20Can%20you%20please%20send%20me%20information%20about%20your%20sponsorship%20packages%3F">pwinn@choctaw.org<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-auto inline-block" fill="currentColor" viewBox="0 96 960 960"><path d="M180 936q-24 0-42-18t-18-42V276q0-24 18-42t42-18h279v60H180v600h600V597h60v279q0 24-18 42t-42 18H180Zm202-219-42-43 398-398H519v-60h321v321h-60V319L382 717Z"/></svg></a></h1>
+    <h1 class="text-3xl font-bold mx-auto text-center" style="text-shadow:3px 3px 6px #333">To become a 2023 Sponsor of the Choctaw Indian Fair, please contact Pam Winn at <a href="mailto:pwinn@choctaw.org?subject=2023%20Choctaw%20Indian%20Fair%20Sponsorship&body=Hello%2C%0AI%20am%20interested%20in%20becoming%20a%20sponsor%20for%20the%202023%20Choctaw%20Indian%20Fair.%20Can%20you%20please%20send%20me%20information%20about%20your%20sponsorship%20packages%3F">pwinn@choctaw.org<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-auto inline-block" fill="currentColor" viewBox="0 96 960 960"><path d="M180 936q-24 0-42-18t-18-42V276q0-24 18-42t42-18h279v60H180v600h600V597h60v279q0 24-18 42t-42 18H180Zm202-219-42-43 398-398H519v-60h321v321h-60V319L382 717Z"/></svg></a></h1>
   </div>
   <!--<div class="hero pt-4 pb-10 overflow-hidden">
     <Sponsors />
@@ -52,13 +52,13 @@
 <style>
 	.bg-panel {
     background: url("/panel.svg") center repeat,
-    #212527;
+    radial-gradient(#345, black);
 		background-size: auto;
     background-blend-mode: lighten;
 	}
   .bg-sponsor {
     background: center / cover url("/isometric.svg"),
-    #fcd34d;
+    linear-gradient(to bottom right, yellow, orange);
     background-blend-mode: darken;
   }
 </style>

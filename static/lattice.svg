@@ -3,42 +3,17 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 400 250" style="enable-background:new 0 0 400 250;" xml:space="preserve">
 <style type="text/css">
-	.st0{opacity:0.1;}
-	.st1{fill:#FFFFFF;}
-	.st2{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st0{fill:#3C3C00;}
 </style>
-<g class="st0">
-	<g>
-		<polygon class="st1" points="200,109.57 0,21.5 0,57.5 159.15,127.56 		"/>
-		<polygon class="st1" points="200,145.54 400,233.57 400,197.63 240.85,127.56 		"/>
-	</g>
-	<g>
-		<g>
-			<polygon points="200.27,109.45 0.2,21.04 -0.2,21.96 199.03,109.99 			"/>
-			<polygon points="241.05,127.47 239.81,128.01 399.8,198.7 400.2,197.79 			"/>
-		</g>
-		<g>
-			<polygon points="159.47,127.42 0.2,57.04 -0.2,57.96 158.23,127.96 			"/>
-			<polygon points="200.24,145.43 199,145.98 399.8,234.7 400.2,233.79 			"/>
-		</g>
-		<g>
-			<polygon points="179.87,118.43 0.2,39.04 -0.2,39.96 178.63,118.98 			"/>
-			<polygon points="220.65,136.45 219.41,136.99 399.8,216.7 400.2,215.79 			"/>
-		</g>
-	</g>
+<g>
+	<polygon class="st0" points="200,109.6 200,109.6 199,110 0,22 0,39.5 0.2,39 179.9,118.4 178.6,119 0,40 0,57.5 0.2,57 
+		159.5,127.4 	"/>
+	<polygon class="st0" points="399.8,198.7 239.8,128 220.7,136.5 400,215.7 400,198.2 	"/>
+	<polygon class="st0" points="399.8,216.7 219.4,137 200.2,145.4 324.3,200.2 400,233.6 400,216.2 	"/>
 </g>
-<g class="st0">
-	<polygon class="st1" points="400,57.5 0,233.57 0,197.63 400,21.5 	"/>
-	<g>
-		<g>
-			<line class="st2" x1="400" y1="21.5" x2="0" y2="198.24"/>
-		</g>
-		<g>
-			<line class="st2" x1="400" y1="57.5" x2="0" y2="234.24"/>
-		</g>
-		<g>
-			<line class="st2" x1="400" y1="39.5" x2="0" y2="216.24"/>
-		</g>
-	</g>
+<g>
+	<polygon class="st0" points="0.2,198.7 0,198.2 0,215.7 399.8,39 400,39.5 400,22 	"/>
+	<polygon class="st0" points="0.2,216.7 0,216.2 0,233.6 73.9,201.1 399.8,57 400,57.5 400,40 	"/>
+	<polygon class="st0" points="41.8,179.2 0,197.6 0,197.7 	"/>
 </g>
 </svg>

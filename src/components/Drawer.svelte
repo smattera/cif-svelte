@@ -4,7 +4,7 @@
   const pages = [
     { name: "Home", href: "/" },
     { name: "Events", href: "/events", icon: "events" },
-    { name: "Culture", href: "/culture" },
+    { name: "Culture", href: "/culture", icon: "culture" },
     { name: "Family Fun", href: "/family", icon: "family" },
     { name: "Stickball", href: "/stickball", icon: "stickball" },
     { name: "Pageant", href: "/pageant" },
@@ -13,7 +13,7 @@
   ];
   $: currentRoute = $page.url.pathname;
 
-  let isDrawerOpen;
+  let isDrawerOpen = true;
 
   function handleLinkClick() {
 		isDrawerOpen = false;
@@ -23,7 +23,7 @@
 
 <div class="drawer-side">
   <label for="my-drawer" class="drawer-overlay" />
-  <ul class="menu p-4 w-80 bg-base-100 text-base-content">
+  <ul class="menu p-4 w-80 bg-base-100 text-base-content" style="background:#345!important;">
     <!-- Sidebar content here -->
     {#each pages as page}
     <li>
