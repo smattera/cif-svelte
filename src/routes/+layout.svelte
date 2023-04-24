@@ -6,7 +6,6 @@
 	let isDrawerOpen = false;
 
 	// toggle the drawer state
-	// @ts-ignore
 	function toggleDrawer() {
 		isDrawerOpen = !isDrawerOpen;
 	}
@@ -28,38 +27,7 @@
   ];
   $: currentRoute = $page.url.pathname;
 
-	var chatbox = document.getElementById('fb-customer-chat');
-	// @ts-ignore
-	chatbox.setAttribute("page_id", "288707011210895");
-	// @ts-ignore
-	chatbox.setAttribute("attribution", "biz_inbox");
-
-	// @ts-ignore
-	window.fbAsyncInit = function() {
-		// @ts-ignore
-		FB.init({
-			xfbml            : true,
-			version          : 'v16.0'
-		});
-	};
-
-	(function(d, s, id) {
-		var js, fjs = d.getElementsByTagName(s)[0];
-		if (d.getElementById(id)) return;
-		js = d.createElement(s); js.id = id;
-		// @ts-ignore
-		js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-		// @ts-ignore
-		fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));
 </script>
-
-<!-- Messenger Chat Plugin Code -->
-<div id="fb-root"></div>
-
-<!-- Your Chat Plugin code -->
-<div id="fb-customer-chat" class="fb-customerchat">
-</div>
 
 <div class="drawer" data-open={isDrawerOpen}>
 	<input id="my-drawer" type="checkbox" class="drawer-toggle" checked={isDrawerOpen} />
