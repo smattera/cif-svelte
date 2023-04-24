@@ -26,7 +26,7 @@
 <footer class="footer footer-center p-10 bg-panel text-white">
   <div>
     <img src="./logos/icon.webp" alt="Choctaw Indian Fair" class="h-24 w-auto">
-    <p class="font-bold uppercase text-xl">
+    <p class="font-bold uppercase text-xl" style="text-shadow: 0px 0px 10px #aaa">
       Choctaw Indian Fair
     </p> 
     <p>
@@ -52,7 +52,7 @@
 <style>
 	.bg-panel {
     background: url("/panel.svg") center repeat,
-    radial-gradient(#345, black);
+    #212529;
 		background-size: auto;
     background-blend-mode: lighten;
 	}

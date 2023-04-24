@@ -44,7 +44,7 @@
 {#if timeLeft > 0}
 <div class="hero py-4 bg-countdown">
 	<div class="hero-content flex-col lg:flex-row font-bold w-fit">
-		<h1 class="uppercase text-2xl text-center">Countdown to the <span class="whitespace-nowrap">73rd Choctaw Indian Fair:</span></h1>
+		<h1 class="uppercase text-2xl text-center" style="text-shadow: 0px 0px 10px #aaa">Countdown to the <span class="whitespace-nowrap">73rd Choctaw Indian Fair:</span></h1>
 		<div class="grid grid-flow-col gap-5 text-center auto-cols-max">
 			<div class="flex flex-col p-2 glass rounded-box drop-shadow-2xl">
 				<span class="countdown font-mono text-5xl block">
@@ -78,7 +78,7 @@
 <style>
 	.bg-countdown {
     background: url("/lattice.svg") center repeat,
-    radial-gradient(#345, black);
+    #212529;
 		background-size: auto;
 		background-blend-mode: lighten;
 	}

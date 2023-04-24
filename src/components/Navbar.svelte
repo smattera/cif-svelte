@@ -5,7 +5,7 @@
     </label>
   </div>
   <div class="navbar-center">
-    <a href="/" class="btn btn-ghost text-xl transition ease-in-out delay-150 hover:scale-110 duration-300"><img src="./logos/icon.webp" class="h-10 w-auto" alt="Choctaw Indian Fair" /><span class="hidden ml-2 md:block">Choctaw Indian Fair</span></a>
+    <a href="/" class="btn btn-ghost text-xl transition ease-in-out delay-150 hover:scale-110 duration-300" style="text-shadow: 0px 0px 10px #aaa"><img src="./logos/icon.webp" class="h-10 w-auto" alt="Choctaw Indian Fair" /><span class="hidden ml-2 md:block">Choctaw Indian Fair</span></a>
   </div>
   <div class="navbar-end">
     <a href="/" class="btn glass btn-disabled text-white transition ease-in-out delay-150 hover:scale-110 duration-300 mr-3">
@@ -18,7 +18,7 @@
 <style>
 	.bg-navbar {
     background: url("/rope.svg") center repeat-x,
-    radial-gradient(#345, black, black);
+    #212529;
 		background-size: auto;
     background-blend-mode:lighten;
 	}
