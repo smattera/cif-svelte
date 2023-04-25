@@ -1,6 +1,5 @@
 <script>
 	import Countdown from "../components/Countdown.svelte";
-	import Pricing from "../components/Pricing.svelte";
 </script>
 
 <svelte:head>
@@ -25,8 +24,6 @@
     <h2 class="text-5xl font-bold mb-4 2xl:text-7xl" style="text-shadow:5px 5px 10px #333">Yakoki!</h2>
   </div>
 </section>
-
-<Pricing />
 
 <style>
   .bg-section {

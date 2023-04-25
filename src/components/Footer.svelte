@@ -1,5 +1,6 @@
 <script>
   import Sponsors from '../components/Sponsors.svelte';
+  import Pricing from "../components/Pricing.svelte";
   import { onMount } from 'svelte';
 	
 	let now = new Date(), year;
@@ -13,6 +14,8 @@
     dateString = [year];
 	})
 </script>
+
+<Pricing/>
 
 <div class="bg-sponsor">
   <div class="hero p-24 mx-auto">

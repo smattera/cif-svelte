@@ -25,6 +25,8 @@
 	<img src="/img/event-banner02.webp" alt="Events" class="md:hidden w-full h-auto mt-8 p-4">
 	<h1 class="font-bold p-4" style="text-shadow:5px 5px 10px #333">EVENTS</h1>
 
+	<h2 class="font-bold m-20 p-4 text-5xl outline outline-neutral rounded-lg text-center" style="text-shadow:3px 3px 6px #333;box-shadow:6px 6px 12px #333;">2023 Fair Schedule Coming Soon!</h2>
+
 		<!-- <div class="tabs tabs-boxed items-center align-middle gap-5 w-full">
       {#each dates as date}
 			<a
@@ -65,7 +67,7 @@
 <style>
   .bg-section {
     background: center / cover url("/isometric.svg"),
-    red;
+    linear-gradient(to bottom right, red, maroon);
     background-blend-mode: darken;
   }
 	h1 {
