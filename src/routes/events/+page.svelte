@@ -21,9 +21,8 @@
 </script>
 
 <div class="hero bg-section flex flex-col">
-	<img src="/img/event-banner.webp" alt="Events" class="hidden md:block w-full h-auto p-4">
-	<img src="/img/event-banner02.webp" alt="Events" class="md:hidden w-full h-auto mt-8 p-4">
-	<h1 class="font-bold p-4" style="text-shadow:5px 5px 10px #333">EVENTS</h1>
+	<img src="/img/event-banner.webp" alt="Events" class="hidden md:block w-full h-auto p-4" style="-webkit-filter: drop-shadow(2px 2px 4px #222);filter: drop-shadow(2px 2px 4px #222);">
+	<img src="/img/event-banner02.webp" alt="Events" class="md:hidden w-full h-auto mt-8 p-4" style="-webkit-filter: drop-shadow(2px 2px 4px #222);filter: drop-shadow(2px 2px 4px #222);">
 
 	<h2 class="font-bold m-20 p-4 text-5xl outline outline-neutral rounded-lg text-center" style="text-shadow:3px 3px 6px #333;box-shadow:6px 6px 12px #333;">2023 Fair Schedule Coming Soon!</h2>
 

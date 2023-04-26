@@ -18,7 +18,7 @@
 	const pages = [
     { name: "Home", href: "/" },
     { name: "Events", href: "/events", icon: "events" },
-    { name: "Culture", href: "/culture" },
+    { name: "Culture", href: "/culture", icon: "culture" },
     { name: "Family Fun", href: "/family", icon: "family" },
     { name: "Stickball", href: "/stickball", icon: "stickball" },
     { name: "Pageant", href: "/pageant" },
