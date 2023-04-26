@@ -7,6 +7,7 @@ specifiers:
   '@sveltejs/adapter-vercel': ^1.0.6
   '@sveltejs/kit': ^1.15.1
   '@types/cookie': ^0.5.1
+  '@types/mapbox-gl': ^2.7.10
   autoprefixer: ^10.4.14
   daisyui: ^2.51.4
   embla-carousel: ^7.1.0
@@ -39,6 +40,7 @@ devDependencies:
   '@sveltejs/adapter-vercel': 1.0.6_@sveltejs+kit@1.15.1
   '@sveltejs/kit': 1.15.1_svelte@3.55.0+vite@4.0.1
   '@types/cookie': 0.5.1
+  '@types/mapbox-gl': 2.7.10
   autoprefixer: 10.4.14_postcss@8.4.21
   daisyui: 2.51.5_j7yt3jd32cwenjqavrrga47yr4
   eslint: 8.29.0
@@ -487,6 +489,16 @@ packages:
 
   /@types/cookie/0.5.1:
     resolution: {integrity: sha512-COUnqfB2+ckwXXSFInsFdOAWQzCCx+a5hq2ruyj+Vjund94RJQd4LG2u9hnvJrTgunKAaax7ancBYlDrNYxA0g==}
+    dev: true
+
+  /@types/geojson/7946.0.10:
+    resolution: {integrity: sha512-Nmh0K3iWQJzniTuPRcJn5hxXkfB1T1pgB89SBig5PlJQU5yocazeu4jATJlaA0GYFKWMqDdvYemoSnF2pXgLVA==}
+    dev: true
+
+  /@types/mapbox-gl/2.7.10:
+    resolution: {integrity: sha512-nMVEcu9bAcenvx6oPWubQSPevsekByjOfKjlkr+8P91vawtkxTnopDoXXq1Qn/f4cg3zt0Z2W9DVsVsKRNXJTw==}
+    dependencies:
+      '@types/geojson': 7946.0.10
     dev: true
 
   /@types/node/18.11.15:

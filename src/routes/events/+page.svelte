@@ -69,8 +69,4 @@
     linear-gradient(to bottom right, red, maroon);
     background-blend-mode: darken;
   }
-	h1 {
-		font-size: 8rem;
-		font-size: clamp(4rem, 8vw, 16rem);
-	}
 </style>
