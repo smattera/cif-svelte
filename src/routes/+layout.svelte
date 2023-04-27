@@ -16,7 +16,7 @@
 	}
 
 	const pages = [
-    { name: "Home", href: "/" },
+    { name: "Home", href: "/", icon: "home" },
     { name: "Events", href: "/events", icon: "events" },
     { name: "Culture", href: "/culture", icon: "culture" },
     { name: "Family Fun", href: "/family", icon: "family" },

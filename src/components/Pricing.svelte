@@ -3,14 +3,14 @@
 		<h1 class="text-3xl font-bold text-center uppercase pb-4" style="text-shadow: 0px 0px 10px #aaa">Ticket Presale Starts On Monday, June 12, 2023</h1>
 	</div>
 	<div class="hero pb-4 text-center">
-		<div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-12 m-4 mb-8">
+		<div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-12 m-4 mb-8 w-11/12">
 			<!-- Pricing Tier One-->
 			<div class="bg-child rounded-lg shadow-lg mb-4 md:mb-0">
 				<a href="/">
 					<div class="p-8 glass rounded-lg outline outline-neutral outline-offset-4 w-full h-full">
 						<h3 class="text-5xl font-bold" style="text-shadow:5px 5px 10px #333">Child Pass</h3>
 						<div class="outline outline-neutral rounded-lg mx-auto p-2 m-4 text-2xl" style="text-shadow:4px 4px 6px #333;box-shadow: 5px 5px 10px #333;">AGES 5 & UNDER</div>
-						<p class="text-7xl font-bold" style="text-shadow:5px 5px 10px #333">FREE</p>
+						<p class="text-7xl font-bold pt-6" style="text-shadow:5px 5px 10px #333">FREE</p>
 					</div>
 				</a>
 			</div>
